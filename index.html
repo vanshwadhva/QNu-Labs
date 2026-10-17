@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svashasan Labs × QNu Labs | Partnership Overview Update</title>
+    <meta name="robots" content="noindex, nofollow">
+     <link rel="icon" type="image/png" href="2.png" sizes="32x32">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N89XZGM4');</script>
+<!-- End Google Tag Manager -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+                        calibri: ['Calibri', 'sans-serif'],
+                    },
+                    colors: {
+                        brandBlack: '#0B0B0B',
+                        brandCharcoal: '#1A1A1A',
+                        mutedText: '#666666',
+                        metaText: '#8A8A8A',
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Mobile menu animation styles */
+        #mobile-menu {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-10px);
+            pointer-events: none;
+            transition: opacity 0.35s ease-out, transform 0.35s ease-out, visibility 0s linear 0.35s;
+            display: flex;
+        }
+
+        #mobile-menu.active {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+            transition: opacity 0.35s ease-out, transform 0.35s ease-out, visibility 0s linear 0s;
+        }
+
+        #mobile-menu ul li {
+            transform: translateY(20px);
+            opacity: 0;
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        }
+
+        #mobile-menu.active ul li {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        #mobile-menu.active ul li:nth-child(1) { transition-delay: 0.05s; }
+        #mobile-menu.active ul li:nth-child(2) { transition-delay: 0.10s; }
+        #mobile-menu.active ul li:nth-child(3) { transition-delay: 0.15s; }
+        #mobile-menu.active ul li:nth-child(4) { transition-delay: 0.20s; }
+        #mobile-menu.active ul li:nth-child(5) { transition-delay: 0.25s; }
+        #mobile-menu.active ul li:nth-child(6) { transition-delay: 0.30s; }
+        #mobile-menu.active ul li:nth-child(7) { transition-delay: 0.35s; }
+
+        #menu-button {
+            align-items: center;
+            justify-content: center;
+        }
+
+        #menu-open-icon {
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        #menu-button.active #menu-open-icon {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        #menu-close-icon {
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        #menu-button.active #menu-close-icon {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 0.75rem 0 !important;
+            }
+
+            header .container {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+
+            #mobile-menu {
+                padding-top: 5rem;
+                padding-bottom: 2rem;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #mobile-menu ul {
+                gap: 1.75rem !important;
+            }
+
+            #mobile-menu a {
+                font-size: 1.5rem !important;
+            }
+        }
+
+@media (max-width: 480px) {
+            header .container {
+                gap: 0.5rem;
+            }
+
+            .header-right-group a svg,
+            .header-right-group button svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            #mobile-menu {
+                padding-top: 4.5rem;
+            }
+
+            #mobile-menu ul {
+                gap: 1.5rem !important;
+            }
+
+            #mobile-menu a {
+                font-size: 1.25rem !important;
+            }
+        }
+
+        /* Navigation sidebar link styles */
+        .nav-link {
+            outline: none;
+            text-decoration: none;
+        }
+        .nav-link:focus-visible {
+            outline: none;
+        }
+        .nav-link.active,
+        .nav-link:hover {
+            background-color: rgba(0,0,0,0.04);
+            box-shadow: 0 0 12px rgba(0,0,0,0.12);
+            transition: background-color 0.2s ease, box-shadow 0.3s ease;
+        }
+
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="/global-loader.css">
+    <script src="/global-loader.js"></script>
+    <style>
+        :root {
+            --paper: #fffdf7;
+            --line: #d9d2c5;
+            --muted: #5c574e;
+            --ink: #161513;
+        }
+
+        h1, h2, h3 {
+            scroll-margin-top: 6rem;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-white min-h-screen flex flex-col">
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N89XZGM4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <!-- Header Section -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-80 backdrop-blur-md py-4 shadow-sm">
+        <div class="container mx-auto flex items-center justify-between px-4 sm:px-6 gap-4">
+            <!-- Logo -->
+            <a href="https://svashasan.com/" class="flex-shrink-0">
+                <img src="2.png" alt="Svashasan Logo" class="h-10 w-auto object-contain">
+            </a>
+            <!-- Search Bar -->
+            <div class="relative flex items-center">
+                <i data-lucide="search" class="w-4 h-4 text-gray-400 absolute left-2.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+                <input id="search-input" type="text" placeholder="Search research..." oninput="handleGlobalSearch(this.value)" class="w-36 sm:w-44 focus:w-40 sm:focus:w-56 pl-8 pr-3 py-1.5 bg-gray-50 border border-transparent focus:bg-white focus:border-gray-300 rounded-full text-xs transition-all duration-300 outline-none text-brandBlack">
+                <div id="search-results" class="absolute left-0 right-0 top-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hidden z-50 max-h-60 overflow-y-auto"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex flex-1 min-h-0">
+    <!-- Left navigation sidebar -->
+    <nav id="toc" class="hidden md:block sticky top-20 w-64 px-4 py-6 bg-white/80 backdrop-blur-md max-h-[calc(100vh-5rem)] overflow-y-auto transition-all duration-300 ease-out self-start" aria-label="Table of contents">
+        <ul class="space-y-2 text-sm">
+<li><a href="#svashasan-labs-qnu-labs" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">Svashasan Labs × QNu Labs</a></li>
+<li><a href="#1-the-strategic-proposition" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">1. The Strategic Proposition</a></li>
+<li><a href="#2-what-exactly-should-we-build-together" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">2. What We Build Together</a></li>
+<li><a href="#3-the-commercial-model-qnu-earns-more-when-svashasan-succeeds" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">3. The Commercial Model: QNu Earns More When Svashasan Succeeds</a></li>
+<li><a href="#4-give-qnu-a-larger-overall-benefit-without-giving-away-svashasan-os" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">4. A Larger Overall Benefit for QNu, Without Giving Away Svashasan OS</a></li>
+<li><a href="#5-structure-the-agreement-in-four-commercial-layers" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">5. Structure the Agreement in Four Commercial Layers</a></li>
+<li><a href="#6-execute-in-stages-from-technical-proof-to-oem-revenue" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">6. Execute in Stages: From Technical Proof to OEM Revenue</a></li>
+<li><a href="#7-your-negotiation-strategy-with-qnu-labs" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">7. Proposed Next Steps with QNu Labs</a></li>
+<li><a href="#8-the-immediate-deal-to-put-on-the-table" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">8. The Immediate Deal Proposal</a></li>
+<li><a href="#bottom-line" class="nav-link block px-3 py-1 rounded-md text-gray-700 hover:bg-gray-100 hover:shadow-[0_0_8px_rgba(0,0,0,0.15)] transition-all duration-300">Bottom Line</a></li>
+</ul>
+    </nav>
+
+    <main class="flex-grow pt-24 px-4 md:px-6">
+        <div class="container mx-auto max-w-4xl text-gray-700">
+<h1 id="svashasan-labs-qnu-labs" class="text-[22px] font-bold text-gray-800 text-center mb-4 mt-10 flex items-center justify-center gap-2 flex-wrap"><img src="2.png" alt="Svashasan Logo" class="h-8 w-auto" onerror="this.style.display='none'"><span>Svashasan Labs</span><span class="separator" style="border-left:1px solid currentColor;height:1em;margin:0 0.5rem;"></span><img src="qnu.png" alt="QNu Labs" class="h-11 w-auto" onerror="this.style.display='none'"><span>QNu Labs</span></h1>
+<h2 id="strategic-collaboration-quantum-safe-ota-security" class="text-[18px] font-semibold text-gray-800 text-center mb-8 mt-0">Strategic Collaboration: Quantum-Safe OTA Security for Software-Defined Electric Vehicles</h2>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Partnership overview update • 17 October 2026 • For strategic discussion and commercial negotiation</strong></p>
+<p class="text-[16px] mb-4 leading-relaxed">Following our recent meeting, we would like to share an updated overview of the proposed partnership. We recommend structuring this as a <strong>technology-integrated, revenue-sharing partnership in which QNu Labs earns more as Svashasan OS gains commercial adoption</strong>. Rather than treating QNu as a security vendor that sells us a product once, we see QNu as the long-term cryptographic security partner of Svashasan OS.</p>
+<blockquote class="border-l-4 border-gray-800 pl-4 my-5 text-[16px] leading-relaxed text-gray-800 italic"><strong>Svashasan provides the operating system and automotive integration layer; QNu provides the quantum-safe security technology; together, we can offer OEMs a unified, secure software-update and vehicle-software protection solution.</strong></blockquote>
+<p class="text-[16px] mb-4 leading-relaxed">We believe this has a credible technical foundation. QNu publicly positions its portfolio around post-quantum cryptography (PQC), quantum random number generation (QRNG), key management and its QShield security platform. It also explicitly identifies automotive OTA updates and connected-vehicle security as target use cases.</p>
+<p class="text-[16px] mb-4 leading-relaxed">The commercial objective is for QNu to earn a slightly larger share of the <em>joint security opportunity</em>, without transferring ownership of Svashasan OS, its kernel architecture, or its overall licensing business.</p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="1-the-strategic-proposition" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">1. The Strategic Proposition</h1>
+<h2 id="svashasan-labs-the-mobility-software-layer" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Svashasan Labs — the mobility software layer</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Owns the Svashasan OS architecture, vehicle-side integration, OTA workflow orchestration, update lifecycle, compatibility layer and OEM integration.</p>
+<h2 id="qnu-labs-the-cryptographic-security-layer" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">QNu Labs — the cryptographic security layer</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Provides licensed quantum-safe cryptographic components, key-management integration and other agreed security capabilities through its applicable products and SDKs, subject to technical validation and agreed licensing.</p>
+<h2 id="joint-offering-security-for-the-vehicle-software-lifecycle" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Joint offering — security for the vehicle software lifecycle</h2>
+<p class="text-[16px] mb-4 leading-relaxed">An integrated OTA security solution that verifies update authenticity, protects update delivery, manages cryptographic trust and helps prevent unauthorised software from being installed.</p>
+<p class="text-[16px] mb-4 leading-relaxed">We see the partnership as an integrated capability for OEMs, not merely an encryption add-on. It should be designed to support automotive cybersecurity engineering and software-update management processes, including applicable requirements under ISO/SAE 21434 and UNECE Regulations R155 and R156. <strong>Integration of cryptography alone does not establish regulatory compliance.</strong></p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="2-what-exactly-should-we-build-together" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">2. What We Build Together</h1>
+<p class="text-[16px] mb-4 leading-relaxed">We propose a jointly marketed product, working name:</p>
+<blockquote class="border-l-4 border-gray-800 pl-4 my-5 text-[16px] leading-relaxed text-gray-800 italic"><strong>Svashasan Secure OTA — secured by QNu Labs</strong></blockquote>
+<p class="text-[16px] mb-4 leading-relaxed">The goal is to secure the software-update lifecycle for EVs running Svashasan OS, while keeping Svashasan's underlying operating system and update orchestration under Svashasan's control.</p>
+<p class="text-[16px] mb-4 leading-relaxed">QNu's automotive portfolio publicly identifies three particularly relevant capabilities: its QuSafe HSM development platform, PQC-enabled TLS communication, and quantum-safe protection for charging systems. It also describes HODOS as its PQC library. These are suitable starting points for technical evaluation, not a guarantee that every component is already production-ready for the target vehicle hardware.</p>
+<h2 id="proposed-technical-architecture" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Proposed technical architecture</h2>
+<h3 id="1-svashasan-os-release-pipeline" class="text-[16px] font-semibold text-gray-800 mb-3 mt-6">1. Svashasan OS Release Pipeline</h3>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li>Build firmware.</li><li>Assign version.</li><li>Generate update manifest.</li><li>Define compatible ECUs.</li></ul>
+<h3 id="2-qnu-cryptographic-security-services" class="text-[16px] font-semibold text-gray-800 mb-3 mt-6">2. QNu Cryptographic Security Services</h3>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li>PQC digital signatures.</li><li>Signing-key protection.</li><li>Key lifecycle.</li><li>Quantum-safe secure communications.</li><li>HODOS / applicable key-management and hardware components, subject to validation.</li></ul>
+<h3 id="3-svashasan-ota-orchestrator" class="text-[16px] font-semibold text-gray-800 mb-3 mt-6">3. Svashasan OTA Orchestrator</h3>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li>Package distribution.</li><li>Vehicle targeting.</li><li>Staged rollout.</li><li>Update status.</li><li>Audit trail.</li></ul>
+<h3 id="4-vehicle-side-verification" class="text-[16px] font-semibold text-gray-800 mb-3 mt-6">4. Vehicle-Side Verification</h3>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li>Verify signature and manifest.</li><li>Check hardware compatibility and version policy.</li><li>Reject unauthorised or outdated packages.</li></ul>
+<h3 id="5-safe-installation-and-recovery" class="text-[16px] font-semibold text-gray-800 mb-3 mt-6">5. Safe Installation and Recovery</h3>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li>Install under OEM rules.</li><li>Validate post-install health.</li><li>Recover through an approved rollback or recovery mechanism.</li></ul>
+<p class="text-[14px] mb-4 leading-relaxed text-gray-500 italic">Conceptual architecture. Actual interfaces, trust anchors and hardware requirements must be agreed with QNu and the OEM.</p>
+<p class="text-[16px] mb-4 leading-relaxed">The division of responsibility should be explicit:</p>
+<div class="overflow-x-auto mb-6"><table class="w-full text-[16px] border-collapse"><thead><tr><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">Capability</th><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">Svashasan Labs</th><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">QNu Labs</th></tr></thead><tbody><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Core OS and kernel</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top"><strong>Owns and maintains</strong></td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">No ownership claim</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">OTA workflow and rollout orchestration</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Builds and maintains</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Integrates with the agreed security interfaces</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Cryptographic libraries</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Integrates licensed components</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top"><strong>Supplies and maintains</strong> its licensed components</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Signing keys and key policies</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Defines update workflow and authorisation requirements</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Provides agreed key-management and cryptographic capabilities</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Vehicle-side enforcement</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Integrates verification into the OS and update agent</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Advises on the cryptographic implementation</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Vehicle compatibility</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Coordinates OS, simulator and OEM testing</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Tests its components on agreed target hardware</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Security incident response</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Owns OS and OTA orchestration issues</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Owns defects in its supplied security components</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">OEM deployment</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top"><strong>Leads</strong> Svashasan OS integration</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Supports the security workstream</td></tr></tbody></table></div>
+<h2 id="the-security-requirements-that-matter-most" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">The security requirements that matter most</h2>
+<p class="text-[16px] mb-4 leading-relaxed">The implementation should not equate encryption with secure OTA. Multiple controls need to operate together.</p>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li><strong>Authenticity and integrity:</strong> Each approved update must be signed, and the vehicle must reject packages whose signature or manifest fails verification.</li><li><strong>Key protection:</strong> Protect signing keys, restrict signing access and define revocation and rotation procedures. The cloud signing service and vehicle-side trust anchors must have clearly separated responsibilities.</li><li><strong>Anti-rollback protection:</strong> Prevent unauthorised installation of an older, vulnerable software version.</li><li><strong>Secure transport:</strong> Protect the update-delivery connection using an agreed cryptographic configuration, including PQC where supported and appropriate.</li><li><strong>Recovery and auditability:</strong> Handle interrupted updates safely, record security-relevant events and support investigation of failed or suspicious releases.</li><li><strong>Cryptographic agility:</strong> Design interfaces so that approved algorithms can be changed as standards and OEM requirements evolve.</li></ul>
+<p class="text-[16px] mb-4 leading-relaxed">For the first implementation, we propose evaluating NIST's standardised ML-DSA digital-signature standard (FIPS 204) for update authenticity, and ML-KEM (FIPS 203) for key establishment where required. We would ask QNu to confirm the precise algorithms, versions, performance and validation status available in its proposed components before the design is committed.</p>
+<blockquote class="border-l-4 border-gray-800 pl-4 my-5 text-[16px] leading-relaxed text-gray-800 italic"><strong>Important architecture decision:</strong> QKD should not be a prerequisite for secure OTA over ordinary vehicle cellular connectivity. We suggest starting with suitable PQC, digital signatures, sound key management and vehicle-side verification. QRNG or dedicated security hardware should be introduced only where the risk assessment, hardware design and measured performance justify them.</blockquote>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="3-the-commercial-model-qnu-earns-more-when-svashasan-succeeds" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">3. The Commercial Model: QNu Earns More When Svashasan Succeeds</h1>
+<p class="text-[16px] mb-4 leading-relaxed">This is the most important part of the proposal. We would prefer to avoid a conventional arrangement in which Svashasan pays a large upfront licence fee and QNu's revenue remains largely independent of whether a joint OEM deployment succeeds.</p>
+<p class="text-[16px] mb-4 leading-relaxed">Instead, we propose structuring the partnership around one recurring, jointly sold security product.</p>
+<h2 id="recommended-revenue-model" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Recommended revenue model</h2>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Proposed recurring security revenue split</strong></p>
+<pre class="text-[13px] sm:text-[14px] leading-relaxed font-mono bg-[#fffdf7] border border-[#d9d2c5] text-[#161513] p-4 mb-6 overflow-x-auto whitespace-pre">QNu Labs          60%
+Svashasan Labs   40%</pre>
+<p class="text-[14px] mb-4 leading-relaxed text-gray-500 italic">Negotiation proposal, not an existing agreement or a representation of either company's costs or margins.</p>
+<p class="text-[16px] mb-4 leading-relaxed">QNu would earn 60% of net collected revenue from the joint security subscription. Svashasan would earn 40% for OS integration, product orchestration and OEM delivery.</p>
+<p class="text-[16px] mb-4 leading-relaxed">We would open negotiations at this <strong>60:40 split in QNu's favour</strong>, subject to the scope of QNu's contribution. This gives QNu the larger share of the security-specific opportunity, while allowing Svashasan to build a recurring revenue stream without surrendering the economics of its core OS.</p>
+<h2 id="define-the-revenue-base-carefully" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Define the revenue base carefully</h2>
+<p class="text-[16px] mb-4 leading-relaxed">The split should apply to the <strong>Net Security Revenue</strong> of the joint product, not to Svashasan Labs' entire revenue.</p>
+<p class="text-[16px] mb-4 leading-relaxed">We propose defining it in the contract as cash collected from the jointly sold security subscription, less only specifically agreed deductions:</p>
+<ul class="list-disc pl-6 mb-4 text-[16px] leading-relaxed space-y-1"><li>GST and other applicable indirect taxes collected for remittance.</li><li>Refunds, credits and customer discounts expressly agreed by both parties.</li><li>Third-party pass-through charges for the joint product that are documented and approved in advance.</li></ul>
+<p class="text-[16px] mb-4 leading-relaxed">Neither party should reduce the revenue base by unapproved internal salaries, overheads or discretionary expenses.</p>
+<p class="text-[16px] mb-4 leading-relaxed">Svashasan's independent OS licence, autonomy software, perception modules, navigation and vehicle-control revenue remain outside the split. QNu would not obtain a royalty over those unrelated products simply because its security component is embedded in Svashasan OS.</p>
+<h2 id="how-the-model-works-at-different-scales" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">How the model works at different scales</h2>
+<p class="text-[16px] mb-4 leading-relaxed">We propose a per-vehicle annual subscription, or another OEM-approved recurring metric. The actual price must be negotiated after performance testing and customer discovery.</p>
+<p class="text-[16px] mb-4 leading-relaxed">The model gives QNu three commercially meaningful advantages.</p>
+<p class="text-[16px] mb-4 leading-relaxed">First, QNu receives the larger recurring share as the number of covered vehicles grows. Second, successful integration gives it an established route into OEM accounts reached through Svashasan. Third, as the product expands to more EV platforms, QNu can potentially sell additional, separately scoped security capabilities through the same relationship.</p>
+<p class="text-[16px] mb-4 leading-relaxed">That makes QNu's success dependent on <strong>actual customer adoption and renewal of the joint product</strong>, rather than only on the initial technology sale.</p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="4-give-qnu-a-larger-overall-benefit-without-giving-away-svashasan-os" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">4. A Larger Overall Benefit for QNu, Without Giving Away Svashasan OS</h1>
+<p class="text-[16px] mb-4 leading-relaxed">The 60:40 security revenue split is the economic foundation. The partnership becomes considerably more attractive to QNu when we add four further benefits.</p>
+<h2 id="1-a-repeatable-route-to-the-automotive-market" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">1. A repeatable route to the automotive market</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Svashasan integrates QNu's security capabilities into an EV operating system designed for OEM adoption. With the appropriate customer permissions and technical proof, QNu can use the integration as a reference for future OEM and Tier-1 discussions.</p>
+<h2 id="2-recurring-royalties-instead-of-one-time-licensing-revenue" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">2. Recurring royalties instead of one-time licensing revenue</h2>
+<p class="text-[16px] mb-4 leading-relaxed">QNu earns from the active vehicle base or covered software licences each year. New vehicle programmes and renewals expand QNu's revenue without requiring it to acquire every customer independently.</p>
+<h2 id="3-an-automotive-integration-and-validation-partner" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">3. An automotive integration and validation partner</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Svashasan contributes its OS, simulation environment, vehicle integration work and agreed test results. QNu gains a route to evaluate its security components on selected automotive compute platforms and ECUs, reducing the effort needed to explore additional vehicle programmes.</p>
+<h2 id="4-expansion-into-adjacent-security-products" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">4. Expansion into adjacent security products</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Once OTA security is validated, the partners can jointly pursue ECU-to-ECU communication, secure vehicle identity, EV charging authentication and additional connected-vehicle security services. Each expansion should have its own scope, pricing and revenue agreement.</p>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Why this is commercially attractive to QNu:</strong> QNu receives the larger recurring share of the joint product while gaining product-level integration into Svashasan's future automotive deployments. QNu's upside increases with Svashasan's distribution success, and Svashasan OS remains Svashasan's own.</p>
+<p class="text-[16px] mb-4 leading-relaxed">We are not offering QNu access to all Svashasan customers, unrestricted use of proprietary code, or automatic rights to every future automotive product. Instead, we propose specific, measurable commercial benefits.</p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="5-structure-the-agreement-in-four-commercial-layers" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">5. Structure the Agreement in Four Commercial Layers</h1>
+<div class="overflow-x-auto mb-6"><table class="w-full text-[16px] border-collapse"><thead><tr><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">Agreement component</th><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">Recommended arrangement</th></tr></thead><tbody><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Technology licence</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">QNu licenses the agreed cryptographic libraries, interfaces and security components for the defined Svashasan OS use case.</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Integration and pilot</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Both parties contribute agreed engineering resources; we would seek OEM-funded pilot work or capped, deferred development charges rather than an open-ended upfront commitment.</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Recurring economics</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">QNu receives 60% and Svashasan 40% of net collected revenue attributable to the joint security subscription.</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Expansion revenue</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Additional security products and implementation services are scoped and priced separately, with QNu receiving the agreed revenue for technology it directly supplies and no double counting.</td></tr></tbody></table></div>
+<h2 id="the-provisions-that-protect-the-long-term-relationship" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">The provisions that protect the long-term relationship</h2>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Intellectual property:</strong> Svashasan retains ownership of its OS kernel, system architecture, OTA orchestration, integration code and pre-existing IP. QNu retains ownership of its cryptographic technology, libraries, key-management technology and pre-existing IP. Any jointly developed inventions must have a written ownership and licensing arrangement before development begins.</p>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Exclusivity:</strong> We propose offering QNu preferred-partner status for the agreed quantum-safe OTA security module. We do not propose blanket exclusivity across Svashasan OS or all automotive cybersecurity. Any narrowly defined exclusivity should be conditional on technical delivery, support commitments and measurable commercial milestones.</p>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Technology portability:</strong> Svashasan should use a defined security abstraction layer between its OTA system and QNu's implementation. This allows cryptographic components to be upgraded or replaced without rewriting the OS. Any replacement must preserve agreed security properties and undergo appropriate validation.</p>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Support and liability:</strong> Define response times, vulnerability notifications, patches, supported configurations, product maintenance and escalation responsibilities. Allocate liability according to fault, contractual responsibility and applicable law. Automotive safety, cybersecurity and regulatory responsibilities cannot simply be transferred to the technology partner.</p>
+<p class="text-[16px] mb-4 leading-relaxed"><strong>Audit and payment:</strong> Quarterly revenue statements, clear vehicle or licence counts, audit rights limited to the joint product, and payment within an agreed period after customer collections. Both parties should have visibility into the commercial metrics that determine their share.</p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="6-execute-in-stages-from-technical-proof-to-oem-revenue" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">6. Execute in Stages: From Technical Proof to OEM Revenue</h1>
+<p class="text-[16px] mb-4 leading-relaxed">The timeline below is a planning estimate, not a commitment. Automotive hardware access, OEM requirements and testing could extend it.</p>
+<h2 id="stage-1-technical-and-commercial-alignment" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Stage 1 — Technical and commercial alignment</h2>
+<p class="text-[14px] mb-4 leading-relaxed text-gray-500 italic">Weeks 1–2</p>
+<p class="text-[16px] mb-4 leading-relaxed">Agree on the OTA use case, target hardware, cryptographic interfaces, revenue definition, responsibilities and pilot success criteria. Confirm which QNu products and licences apply.</p>
+<h2 id="stage-2-proof-of-concept" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Stage 2 — Proof of concept</h2>
+<p class="text-[14px] mb-4 leading-relaxed text-gray-500 italic">Indicatively 6–8 weeks after access to the required SDKs and hardware</p>
+<p class="text-[16px] mb-4 leading-relaxed">Integrate QNu's agreed security components into the Svashasan OTA workflow. Start in simulation, then test on representative development hardware where available.</p>
+<h2 id="stage-3-security-validation-and-oem-pilot" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Stage 3 — Security validation and OEM pilot</h2>
+<p class="text-[14px] mb-4 leading-relaxed text-gray-500 italic">Timing subject to hardware and customer readiness</p>
+<p class="text-[16px] mb-4 leading-relaxed">Test signature rejection, tamper detection, downgrade prevention, key rotation, recovery after interrupted updates, cryptographic latency, processor and memory overhead, and failure handling. Submit results to the OEM with a documented threat model and limitations.</p>
+<h2 id="stage-4-production-deployment-and-recurring-revenue" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Stage 4 — Production deployment and recurring revenue</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Production integration would begin only after OEM acceptance, required validation and commercial approval. Per-vehicle or per-licence billing would then be activated, field performance monitored, and the solution expanded to additional vehicle programmes.</p>
+<h2 id="define-acceptance-before-writing-the-integration" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">Define acceptance before writing the integration</h2>
+<p class="text-[16px] mb-4 leading-relaxed">At a minimum, both companies should agree in advance on these measurable test outcomes:</p>
+<div class="overflow-x-auto mb-6"><table class="w-full text-[16px] border-collapse"><thead><tr><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">Test</th><th class="text-left font-semibold text-gray-800 px-3 py-2 border-b border-[#d9d2c5]">Required outcome</th></tr></thead><tbody><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Authentic update</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Accepted when all required verification and compatibility checks pass</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Modified firmware or manifest</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Rejected</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Unauthorised signing key</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Rejected</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Downgrade or replay attempt</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Rejected under the agreed version and freshness policy</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Interrupted installation</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Recovers according to the agreed OEM update policy</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Key rotation or revocation</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Propagates and behaves correctly under tested conditions</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Performance overhead</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Meets hardware-specific CPU, RAM, storage, latency and power budgets</td></tr><tr><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Audit trail</td><td class="px-3 py-2 border-b border-[#d9d2c5] align-top">Records the defined security and update events without exposing prohibited data</td></tr></tbody></table></div>
+<p class="text-[16px] mb-4 leading-relaxed">Measured results should be used to set numerical performance thresholds. <strong>A successful simulator demonstration alone is not proof of production readiness or regulatory compliance.</strong></p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="7-your-negotiation-strategy-with-qnu-labs" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">7. Proposed Next Steps with QNu Labs</h1>
+<p class="text-[16px] mb-4 leading-relaxed">Since an NDA is already in place, the next step should be a <strong>technical evaluation agreement followed by a commercial pilot MoU</strong>, rather than another generic confidentiality agreement.</p>
+<p class="text-[16px] mb-4 leading-relaxed">We suggest leading with the joint market opportunity, then moving to proposed terms.</p>
+<h2 id="1-confirm-the-technology" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">1. Confirm the technology</h2>
+<p class="text-[16px] mb-4 leading-relaxed">We would ask QNu to identify the exact security components it can license, the available SDKs, hardware dependencies, technical support and the boundaries of its existing product IP.</p>
+<h2 id="2-propose-a-low-risk-pilot" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">2. Propose a low-risk pilot</h2>
+<p class="text-[16px] mb-4 leading-relaxed">We propose an OEM-funded or capped-cost pilot. No unlimited engineering commitment, production hardware purchase or minimum-volume guarantee should be required before a credible customer deployment exists.</p>
+<h2 id="3-offer-the-60-40-recurring-security-revenue-split" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">3. Offer the 60:40 recurring security revenue split</h2>
+<p class="text-[16px] mb-4 leading-relaxed">QNu receives the larger share. In return, we would request integration support, access to the necessary development components, jointly approved technical validation, and a commercially workable licence for deployment through Svashasan OS.</p>
+<h2 id="4-establish-a-joint-oem-pipeline" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">4. Establish a joint OEM pipeline</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Svashasan can lead discussions about its operating system and vehicle integration; QNu can participate in security architecture reviews and technical demonstrations. Customer ownership, account coordination and rights to reuse reference material must be agreed in writing.</p>
+<h2 id="5-agree-on-an-expansion-mechanism" class="text-[18px] font-semibold text-gray-800 mb-3 mt-6">5. Agree on an expansion mechanism</h2>
+<p class="text-[16px] mb-4 leading-relaxed">Once the initial OTA security deployment achieves its agreed milestones, the partners can negotiate additional ECU security, charging security and connected-vehicle products under separate statements of work.</p>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="8-the-immediate-deal-to-put-on-the-table" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">8. The Immediate Deal Proposal</h1>
+<blockquote class="border-l-4 border-gray-800 pl-4 my-5 text-[16px] leading-relaxed text-gray-800 italic"><strong>Proposed Svashasan Labs × QNu Labs Strategic Partnership</strong><br><br>Svashasan Labs proposes a strategic technology and commercial partnership with QNu Labs to integrate QNu's agreed quantum-safe cryptographic technologies into Svashasan OS, beginning with secure over-the-air software updates for electric vehicles.<br><br>Svashasan Labs will own the operating system, OTA orchestration, vehicle integration and OEM delivery, while QNu Labs will supply and support the agreed cryptographic security components and associated capabilities. The parties will jointly validate the solution against agreed hardware, cybersecurity and performance requirements before progressing to an OEM pilot.<br><br>Commercially, we propose a recurring revenue-sharing model under which QNu Labs receives 60% and Svashasan Labs receives 40% of net collected revenue attributable to the jointly offered security subscription. The model is designed so that QNu's commercial returns grow with the number of vehicles and customer programmes adopting Svashasan Secure OTA. Svashasan's independent OS and autonomy revenues will remain outside the revenue-sharing arrangement.<br><br>The partnership will preserve each company's background IP, establish clear technical support and liability boundaries, and provide a pathway for jointly pursuing additional automotive security opportunities. Pilot funding, technology licensing, deployment rights and commercial milestones will be documented in a definitive agreement.</blockquote>
+<hr class="border-[#d9d2c5] my-8">
+<h1 id="bottom-line" class="text-[22px] font-bold text-gray-800 mb-6 mt-10">Bottom Line</h1>
+<p class="text-[16px] mb-4 leading-relaxed">The strongest arrangement is not to position QNu Labs as a low-margin supplier to Svashasan. Instead, we propose giving QNu a recurring, 60% share of the specific security revenue it helps create, a pathway into OEM deployments, and opportunities to expand its technology footprint as Svashasan OS scales. In exchange, Svashasan would secure the licensing, engineering support and deployment rights it needs, without compromising ownership of its OS, kernel architecture or broader autonomy business.</p>
+<blockquote class="border-l-4 border-gray-800 pl-4 my-5 text-[16px] leading-relaxed text-gray-800 italic"><strong>The decisive next milestone is a joint technical workshop that ends with three signed-off outputs: the exact QNu technology to integrate, the pilot acceptance criteria, and the proposed 60:40 commercial framework.</strong></blockquote>
+        </div>
+    </main>
+    </div>
+
+  <!-- Footer -->
+  <footer style="background: #ffffff; border-top: 1px solid #f3f4f6; margin-top: 64px; padding: 40px 20px; color: #6b7280; font-size: 0.85rem;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 40px;">
+        <div>
+          <h5 style="font-weight: 650; color: #0b0b0b; margin-bottom: 12px; font-size: 0.9rem;">Research</h5>
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+            <li><a href="https://research.svashasan.com/" style="color: inherit; text-decoration: none;">Research Overview</a></li>
+            <li><a href="index (2).html" style="color: inherit; text-decoration: none;">Moving Turns</a></li>
+            <li><a href="heuristic.html" style="color: inherit; text-decoration: none;">Heuristic Baseline</a></li>
+            <li><a href="absence.html" style="color: inherit; text-decoration: none;">Evidence of Absence</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 style="font-weight: 650; color: #0b0b0b; margin-bottom: 12px; font-size: 0.9rem;">Company</h5>
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+            <li><a href="https://svashasan.com/#about" style="color: inherit; text-decoration: none;">About Svashasan</a></li>
+            <li><a href="https://research.svashasan.com/" style="color: inherit; text-decoration: none;">Research Portal</a></li>
+            <li><a href="https://svashasan.com/#contact-us" style="color: inherit; text-decoration: none;">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 style="font-weight: 650; color: #0b0b0b; margin-bottom: 12px; font-size: 0.9rem;">Resources</h5>
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+            <li><a href="https://svashasan.com/developer-platform" style="color: inherit; text-decoration: none;">Developer Documentation</a></li>
+            <li><a href="https://svashasan.com/developer-platform" style="color: inherit; text-decoration: none;">API Docs</a></li>
+            <li><a href="https://svashasan.com/getting-started" style="color: inherit; text-decoration: none;">Getting Started</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top: 1px solid #f3f4f6; padding-top: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+        <div>© 2026 Svashasan Labs. All Rights Reserved.</div>
+        <div style="display: flex; gap: 20px; font-size: 0.8rem;">
+          <a href="https://svashasan.com/privacy-policy" style="color: inherit; text-decoration: none;">Privacy Policy</a>
+          <span>|</span>
+          <a href="https://svashasan.com/terms-of-use" style="color: inherit; text-decoration: none;">Terms & Conditions</a>
+          <span>|</span>
+          <a href="https://svashasan.com/cookie-policy" style="color: inherit; text-decoration: none;">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  // Scrollspy for left navigation
+  const navLinks = document.querySelectorAll('#toc .nav-link');
+  const sections = Array.from(navLinks).map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
+      const link = document.querySelector(`#toc .nav-link[href="#${id}"]`);
+      if (entry.isIntersecting) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+
+  sections.forEach(section => observer.observe(section));
+
+  // Search functionality
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  const headings = Array.from(document.querySelectorAll('main h1, main h2, main h3')).filter(h => h.id);
+
+  // Build a searchable index: for each section (heading), collect all text content beneath it
+  const searchIndex = [];
+  headings.forEach((heading, i) => {
+    const nextHeading = headings[i + 1];
+    let contentText = '';
+    let node = heading.nextElementSibling;
+    while (node && node !== nextHeading) {
+      contentText += ' ' + node.textContent;
+      node = node.nextElementSibling;
+    }
+    searchIndex.push({
+      id: heading.id,
+      title: heading.textContent.trim(),
+      content: contentText.trim(),
+    });
+  });
+
+  function getSnippet(text, query, maxLen) {
+    const lower = text.toLowerCase();
+    const idx = lower.indexOf(query);
+    if (idx === -1) return '';
+    const start = Math.max(0, idx - 40);
+    const end = Math.min(text.length, idx + query.length + 60);
+    let snippet = (start > 0 ? '…' : '') + text.slice(start, end).trim() + (end < text.length ? '…' : '');
+    // highlight the matched term
+    const regex = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    snippet = snippet.replace(regex, '<mark class="bg-yellow-200 rounded px-0.5">$1</mark>');
+    return snippet;
+  }
+
+  function handleGlobalSearch(value) {
+    const query = value.trim().toLowerCase();
+    if (query.length < 2) {
+      searchResults.classList.add('hidden');
+      searchResults.innerHTML = '';
+      return;
+    }
+
+    const results = [];
+    searchIndex.forEach(entry => {
+      const titleMatch = entry.title.toLowerCase().includes(query);
+      const contentMatch = entry.content.toLowerCase().includes(query);
+      if (titleMatch || contentMatch) {
+        const snippet = contentMatch ? getSnippet(entry.content, query, 120) : '';
+        results.push({ id: entry.id, title: entry.title, snippet, titleMatch });
+      }
+    });
+
+    // Sort: title matches first, then content matches
+    results.sort((a, b) => (b.titleMatch ? 1 : 0) - (a.titleMatch ? 1 : 0));
+
+    const top = results.slice(0, 12);
+
+    if (top.length === 0) {
+      searchResults.innerHTML = '<div class="px-4 py-3 text-xs text-gray-400">No results found.</div>';
+      searchResults.classList.remove('hidden');
+      return;
+    }
+
+    searchResults.innerHTML = top.map(r =>
+      `<a href="#${r.id}" class="search-result-link block px-4 py-2 text-xs text-brandBlack hover:bg-gray-100 border-b border-gray-50 last:border-0">
+        <div class="font-semibold">${r.title}</div>
+        ${r.snippet ? '<div class="text-[11px] text-gray-500 mt-0.5 leading-snug">' + r.snippet + '</div>' : ''}
+      </a>`
+    ).join('');
+    searchResults.classList.remove('hidden');
+  }
+
+  // Make handleGlobalSearch available globally for the inline oninput attribute
+  window.handleGlobalSearch = handleGlobalSearch;
+
+  // Close dropdown and clear input when clicking a result
+  searchResults.addEventListener('click', (e) => {
+    const link = e.target.closest('.search-result-link');
+    if (link) {
+      searchResults.classList.add('hidden');
+      searchInput.value = '';
+    }
+  });
+
+  // Hide results when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+      searchResults.classList.add('hidden');
+    }
+  });
+
+  // Keyboard navigation
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      searchResults.classList.add('hidden');
+      searchInput.value = '';
+      searchInput.blur();
+    }
+  });
+</script>
+
+<script>if (window.lucide) { lucide.createIcons(); }</script>
+</body>
+</html>
